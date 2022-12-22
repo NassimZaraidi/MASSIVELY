@@ -1,0 +1,833 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/asset/images/grandcanyon.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 50px;
+  font-weight: bold;
+}
+header p {
+  font-size: 20px;
+  border: none;
+}
+header p:hover {
+  color: white;
+  border: none;
+}
+.boxintro{
+  display: flex;
+  justify-content: space-between;
+}
+.socialnetwork {
+  margin-top: 15px;
+}
+.intro {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+p {
+  display: inline;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  border: 3px solid white;
+  font-size: 40px;
+}
+p:hover {
+  color: rgb(178, 197, 255);
+  border: 3px solid rgb(178, 197, 255);
+}
+.massively {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  background-color: white;
+  margin: 200px;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin: 20px;
+}
+.card1 p {
+  font-size: 20px;
+  border: none;
+  color: black;
+}
+.card1 img {
+  margin: 50px;
+  width: 700px;
+}
+.card1 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card1 {
+  text-align: center;
+}
+.p {
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.h2 {
+  margin: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  
+
+}
+.h2:hover {
+  color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+.fullstory p {
+  border: 2px solid black;
+}
+.fullstory p:hover {
+  color: rgb(178, 197, 255);
+
+  border: 2px solid rgb(178, 197, 255);
+}
+.cards {
+  display: flex;
+}
+.card2 {
+  margin-left: -20px;
+}
+.card2 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.p2 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card2 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.card2 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -50px;
+}
+.card2 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card2 a {
+  text-align: center;
+}
+.card2 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card2 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+
+.card2 .fullstory {
+  margin-top: 50px;
+}
+.card3 {
+  margin-left: -80px;
+}
+.card3 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.card3 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.card3 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -75px;
+}
+.card3 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p3 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card3 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card3 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+.card3 a {
+  text-align: center;
+}
+.card3 .fullstory {
+  margin-top: 50px;
+}
+.card4 {
+  margin-left: -20px;
+}
+.card4 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.p4 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card4 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.card4 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -50px;
+}
+.card4 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card4 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+.card4 a {
+  text-align: center;
+}
+.card4 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card4 .fullstory {
+  margin-top: 50px;
+}
+.card5 {
+  margin-left: -80px;
+}
+.card5 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.card5 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.card5 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -50px;
+}
+.card5 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p5 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card5 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card5 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+.card5 a {
+  text-align: center;
+}
+.card5 .fullstory {
+  margin-top: 50px;
+}
+.card6 {
+  margin-left: -20px;
+}
+.card6 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.p6 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card6 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.card6 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -50px;
+}
+.card6 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card6 a {
+  text-align: center;
+}
+.card6 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card6 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+.card6 .fullstory {
+  margin-top: 50px;
+}
+.card7 {
+  margin-left: -80px;
+}
+.card7 p {
+  color: black;
+  font-size: 10px;
+  border: none;
+}
+.card7 h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+.card7 img {
+  width: 400px;
+  margin: 50px;
+  margin-top: -50px;
+}
+.card7 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.p7 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.card7 .fullstory p {
+  border: 1px solid black;
+  padding: 10px;
+}
+.card7 .fullstory p:hover {
+  border: 1px solid rgb(178, 197, 255);
+}
+.card7 a {
+  text-align: center;
+}
+.card7 .fullstory {
+  margin-top: 50px;
+}
+.containerbis {
+  background-color: rgb(243, 243, 243);
+  margin-top: 50px;
+  display: flex;
+}
+.box1 {
+  margin: 30px;
+  font-size: 10px;
+}
+
+.box2 p {
+  border: none;
+  color: black;
+  font-size: 10px;
+  margin: 50px;
+}
+.address,
+.phone,
+.email,
+.social {
+  margin: 30px;
+  margin-left: 100px;
+ 
+}
+.social img {
+  width: 30px;
+}
+.p1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+  font-weight: 50px;
+}
+.h2_3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.text {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.text p {
+  color: black;
+  font-size: 20px;
+  border: none;
+}
+#bold {
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;
+}
+#code {
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid black;
+  background-color: rgb(236, 236, 236);
+}
+.headinglevel {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.subtitle {
+  margin: 50px;
+}
+#subtitle1 p {
+  font-size: 24px;
+}
+#subtitle2 p {
+  font-size: 18.72px;
+}
+#subtitle3 p {
+  font-size: 16px;
+}
+.subtitle p {
+  font-size: 20px;
+  border: none;
+  color: black;
+  text-align: justify;
+}
+.lists {
+  margin-left: 50px;
+}
+.lists1 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lists2 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.icons {
+  margin: 30px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.definition p {
+  font-size: 20px;
+  border: none;
+  color: black;
+}
+.definition {
+  margin: 50px;
+}
+.actions {
+  margin: 50px;
+}
+.containeractions {
+  display: flex;
+}
+.containeractions .box1 {
+  margin-top: 50px;
+}
+.containeractions .box2 {
+  margin-top: 130px;
+  margin-left: 100px;
+}
+#primary {
+  padding: 5px 10px;
+  background: black;
+  color: white;
+}
+#primary:hover {
+  cursor: pointer;
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#default1 {
+  padding: 5px 10px;
+  background-color: white;
+}
+#default1:hover {
+  cursor: pointer;
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#small1 {
+  background-color: black;
+  color: white;
+}
+#small1:hover {
+  cursor: pointer;
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#small2 {
+  background-color: white;
+}
+#small2:hover {
+  cursor: pointer;
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#default2 {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+}
+#default2:hover {
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#default3 {
+  padding: 5px 10px;
+  background-color: white;
+}
+#default3:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#default4 {
+  padding: 5px 100px;
+  background-color: black;
+  color: white;
+}
+#default4:hover {
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#default5 {
+  padding: 5px 100px;
+  background-color: white;
+}
+#default5:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#small3 {
+  background-color: black;
+  color: white;
+}
+#small3:hover {
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#small4 {
+  background-color: white;
+}
+#small4:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#small5 {
+  background-color: black;
+  color: white;
+  padding: 0px 100px;
+}
+#small5:hover {
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#small6 {
+  background-color: white;
+  padding: 0px 100px;
+}
+#small6:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+.blockquote {
+  margin: 50px;
+}
+.blockquote p {
+  color: black;
+  font-size: 20px;
+  border-left: 3px solid grey;
+  border: none;
+}
+td,
+th {
+  border-top: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding: 15px;
+  width: 500px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+.table {
+  margin: 50px;
+}
+#tr1,
+#tr3,
+#tr5 {
+  background-color: rgb(236, 236, 236);
+}
+.buttons {
+  margin: 50px;
+}
+.containerbuttons {
+  margin: 50px;
+}
+#large {
+  padding: 7px 25px;
+  background-color: black;
+  color: white;
+}
+#large:hover {
+  cursor: pointer;
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#fit1 {
+  padding: 5px 120px;
+  background-color: black;
+  color: white;
+}
+#fit1:hover {
+  background-color: rgb(178, 197, 255);
+  cursor: pointer;
+  border-color: rgb(178, 197, 255);
+}
+#fit2 {
+  padding: 5px 120px;
+  background-color: white;
+}
+#fit2:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#fitsmall1 {
+  padding: 0px 91.5px;
+  background-color: black;
+  color: white;
+}
+#fitsmall1:hover {
+  background-color: rgb(178, 197, 255);
+  cursor: pointer;
+  border-color: rgb(178, 197, 255);
+}
+#fitsmall2 {
+  padding: 0px 91.5px;
+  background-color: white;
+}
+#fitsmall2:hover {
+  color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+.containerbuttons img {
+  width: 15px;
+}
+#icon1 {
+  color: white;
+  background-color: black;
+  padding: 4px 20px;
+}
+#icon1:hover{
+  cursor: pointer;
+  background-color: rgb(178, 197, 255);
+  border-color: rgb(178, 197, 255);
+}
+#icon2 {
+  background-color: white;
+  padding: 4px 20px;
+}
+#icon2:hover{
+  cursor: pointer;
+  border-color: rgb(178, 197, 255);
+  color: rgb(178, 197, 255);
+}
+#primary2 {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  opacity: 0.3;
+}
+#default6{
+  padding: 5px 10px;
+  background-color: white;
+  opacity: 0.3;
+}
+.form{
+  margin: 50px;
+}
+.containerform{
+  display: flex;
+  
+}
+.name2 input , .email2 input{
+  width: 350px;
+  height: 50px;
+  margin: 10px;
+}
+.category select{
+  margin: 10px;
+  width: 722px;
+  height: 50px;
+}
+.radio input{
+  margin-left: 130px;
+}
+.checkbox input{
+  margin-left: 130px;
+}
+ textarea{
+  width: 310px;
+}
+.form textarea{
+  width: 730px;
+}
+#send {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+}
+#send:hover{
+  background-color: rgb(178, 197, 255);
+  border: none;
+  cursor: pointer;
+}
+#reset{
+  background-color: white;
+  height: 30px;
+  width: 70px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.image{
+  margin: 50px;
+}
+#img1{
+  width: 770px;
+}
+.container1 , .container2 , .container3 {
+  display: flex;
+}
+.container1 img , .container2 img, .container3 img{
+  width: 257px;
+}
+.image p{
+  font-size: 20px;
+  color: black;
+  border: none;
+  
+}
+.leftfloat img{
+  width: 300px;
+}
+.leftfloat {
+  text-align: justify;
+}
+.leftfloatimg{
+  float: left;
+  margin: 5px 20px;
+}
+.rightfloat img{
+  width: 300px;
+}
+.rightfloat{
+  text-align: justify;
+}
+.rightfloatimg {
+  float: right;
+  margin: 5px 20px;
+}
+.box{
+  margin: 50px;
+}
+.box p{
+  color: black;
+  border: none;
+  font-size: 20px;
+}
+.boxp{
+  border: 1px solid black;
+  padding: 50px;
+}
+.preformatted{
+  margin: 50px;
+}
+.code{
+  background-color: rgb(236, 236, 236);
+  margin: 25px 50px;
+  padding: 30px;
+  border: 1px solid grey;
+}
+.box1{
+  width: 300px;
+}
+i{
+  font-size: 30px;
+  width: 50px;
+}
+i:hover{
+  color: rgb(178, 197, 255);
+  cursor: pointer;
+}
+#address{
+  margin-left: 100px;
+}
